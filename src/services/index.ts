@@ -6,6 +6,6 @@ const walletInterface = new WalletInterface();
 const { Tezos } = walletInterface;
 const iamInterface = new IamInterface(Tezos);
 const ipfsInterface = new IpfsInterface();
-//ipfsInterface.init();
+ipfsInterface.init();
 
 export { walletInterface, iamInterface, ipfsInterface };
